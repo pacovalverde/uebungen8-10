@@ -1,4 +1,4 @@
-﻿Der Buildvorgang wurde am 09.09.2019 10:56:56 gestartet.
+﻿Der Buildvorgang wurde am 09.09.2019 12:09:13 gestartet.
      1>Projekt "C:\Users\f.valverde\Documents\c++_Projekte\uebungen8-10\uebungen8-10\uebungen8-10.vcxproj" auf Knoten "2", build Ziel(e).
      1>InitializeBuildStatus:
          "Debug\uebungen8-10.unsuccessfulbuild" wird erstellt, da "AlwaysCreate" angegeben wurde.
@@ -6,7 +6,6 @@
          c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
          main.cpp
      1>c:\users\f.valverde\documents\c++_projekte\uebungen8-10\uebungen8-10\main.cpp(23): warning C4101: 'groesstenTeiler': Unreferenzierte lokale Variable
-     1>c:\users\f.valverde\documents\c++_projekte\uebungen8-10\uebungen8-10\main.cpp(23): warning C4101: 'temp': Unreferenzierte lokale Variable
        ManifestResourceCompile:
          Alle Ausgaben sind aktuell.
        Link:
@@ -25,4 +24,4 @@
 
 Das Erstellen war erfolgreich.
 
-Verstrichene Zeit 00:00:02.37
+Verstrichene Zeit 00:00:01.48

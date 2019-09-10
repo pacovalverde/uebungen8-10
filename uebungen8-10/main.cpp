@@ -20,14 +20,7 @@ using namespace std;
 
 int ggt(int zahl1, int zahl2)
 {
-	int groesstenTeiler, temp, mod;
-
-	/*if(zahl1 < zahl2)
-	{
-		temp = zahl1;
-		zahl1 = zahl2;
-		zahl2 = temp;
-	}*/
+	int groesstenTeiler, mod;
 
 	mod = zahl2;
 	do {
@@ -48,8 +41,9 @@ int main()
 {
 	int wert1, wert2, groesstenTeiler;
 
-	cout << "Der größten gemeinsamen Teiler ->" << endl;
+	cout << "Der grossten gemeinsamen Teiler ->" << endl;
 
+	// 1032, 180 --> ggT: 12  kgV: 15480
 	cout << "Bitte eingeben ein Wert (1) : ";
 	cin >> wert1;
 	cout << "Bitte eingeben ein Wert (2) : ";
@@ -57,7 +51,6 @@ int main()
 
 	groesstenTeiler = ggt(wert1, wert2);
 
-	cout << "Der groessten gemeinsamen Teiler ist " << groesstenTeiler << endl << endl;
-
-	cout << "Der kleinste gemainsame Vizflache ist " << kgv(wert1, wert2, groesstenTeiler) << endl << endl;
+	cout << endl << "Der groessten gemeinsamen TTTTeiler ist " << groesstenTeiler << endl;
+	cout << "Der kleinste gemainsame VVVVielfache ist " << kgv(wert1, wert2, groesstenTeiler) << endl << endl;
 }
